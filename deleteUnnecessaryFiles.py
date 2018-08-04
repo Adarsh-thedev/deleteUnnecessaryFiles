@@ -1,9 +1,9 @@
 import os
 
-folder1Path=(r"E:\DSLR Images")  #Write path of original folder inside the "" after r
+folder1Path=(r"")  #Write path of original folder inside the "" after r
 folder1Files=os.listdir(folder1Path)
 
-folder2Path=(r"E:\Random")  #Write path of the folder from which you want files to be deleted inside the "" after r
+folder2Path=(r"")  #Write path of the folder from which you want files to be deleted inside the "" after r
 folder2Files=os.listdir(folder2Path) 
 
 for files in folder1Files:
